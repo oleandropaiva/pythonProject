@@ -25,8 +25,10 @@ print()
 
 #Operador IN
 nome = 'Leandro Paiva'
-if 'Pai' in nome:
-    print('Existe PAI no seu nome')
+if 'BLA' in nome:
+    print('Existe')
+else:
+    print('Não existe')
 
 
 

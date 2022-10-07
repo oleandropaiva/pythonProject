@@ -21,6 +21,12 @@ if not b > a:
     print('B é maior que A')
 else:
     print('A é maior do que B.')
+print()
+
+#Operador IN
+nome = 'Leandro Paiva'
+if 'Pai' in nome:
+    print('Existe PAI no seu nome')
 
 
 

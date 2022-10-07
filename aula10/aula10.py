@@ -1,15 +1,9 @@
 # Operadores relacionais
 # == > >= < <= !=
 
-nome = input('Qual o seu nome? ')
-idade = input('Qual a sua idade? ')
+num_1 = 3 #int
+num_2 = 1 #int
 
-idade = int(idade)
-#  Limite para pegar um empréstimo
-idade_menor = 20
-idade_maior = 30
+expressao = (num_2 < num_1)
 
-if idade >= idade_menor and idade <= idade_maior:
-    print(f'{nome} PODE pegar o empréstimo.')
-else:
-    print(f'{nome} NÃO pode pegar o empréstimo.')
+print(expressao)

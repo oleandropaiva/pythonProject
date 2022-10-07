@@ -9,7 +9,6 @@ idade = int(idade)
 idade_menor = 20
 idade_maior = 30
 
-
 if idade >= idade_menor and idade <= idade_maior:
     print(f'{nome} PODE pegar o empréstimo.')
 else:

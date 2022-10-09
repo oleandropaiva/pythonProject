@@ -1,8 +1,6 @@
-usuario = input('Digite seu usuário: ')
-qtd_caracteres = len(usuario)
+string1 = input('Digite alguma coisa: ')
+string2 = input('Digite outtra coisa: ')
 
-if qtd_caracteres < 6:
-    print('Precisa digitar pelo menos 6 caracteres')
-else:
-    print('Cadastrado no sistema. ')
+print(len(string2))
+print(string2.__len__())
 

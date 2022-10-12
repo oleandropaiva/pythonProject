@@ -1,4 +1,4 @@
-valor = True
+valor = False
 
 if valor:
     ...

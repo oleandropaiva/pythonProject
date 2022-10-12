@@ -18,17 +18,13 @@ def is_int(val):
 def is_number(val):
     return is_int(val) or is_float(val)
 
+num1 = input('Digite um número: ')
+num2 = input('Digite outro número: ')
 
-# ###########
-# #  USAGE  #
-# ###########
-#
-# # Float
-# print(is_float('-101.0112'))  # True
-# # Int
-# print(is_int('-1010112'))  # True
-# # Numbers in general (float ou int)
-# print(is_number('-1010.112'))  # True
-#
-# # False
-# print(is_number('123a'))  # False
+if is_number(num1) and is_number(num2):
+    num1 = float(num1)
+    num2 = float(num2)
+
+    print(num1 + num2)
+else:
+    print('ERROR')

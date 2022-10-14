@@ -32,5 +32,11 @@ nome = 'Leandro Paiva'
 nome_formatado = '{n:0<20}'.format(n=nome)
 nome_formatado = '{n:0<20}'.format(n=nome)
 print(nome_formatado)
+print()
+nomeN = 'Andreza Ribeiro'
+print(nomeN.lower())  # tudo minusculo
+print(nomeN.upper())  # tudo maiúsculo
+print(nomeN.title())  # Primeiras letras maiúsculas
+
 
 

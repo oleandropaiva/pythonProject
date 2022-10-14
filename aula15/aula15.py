@@ -4,8 +4,8 @@ Formatando valores com modificadores
 :s - Texto (strings)
 :d - Inteiros (int)
 :f - Números de ponto flutuante (float)
-:. (NÚMERO)f - Quantidade de casas decimais (float)
-: (CARACTERE)(> ou < ou ^)(QUANTIDADE)(TIPO - s, d OU f)
+:.(NÚMERO)f - Quantidade de casas decimais (float) :.2f
+:(CARACTERE)(> ou < ou ^)(QUANTIDADE)(TIPO - s, d OU f)
 
 > - Esquerda
 < - Direita
@@ -21,4 +21,8 @@ print(f'{divisao: .2f}')
 
 nome = 'Leandro Paiva'
 print(f'{nome:s}')
+print(f'{num_1:0>10}')
+print(f'{num_2:0<10}')
+print(f'{num_2:0^10}')
+
 

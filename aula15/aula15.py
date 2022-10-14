@@ -24,5 +24,7 @@ print(f'{nome:s}')
 print(f'{num_1:0>10}')
 print(f'{num_2:0<10}')
 print(f'{num_2:0^10}')
+print(f'{num_2:.2f}') #num_2 com duas casas decimais
+
 
 

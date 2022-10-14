@@ -26,5 +26,11 @@ print(f'{num_2:0<10}')
 print(f'{num_2:0^10}')
 print(f'{num_2:.2f}') #num_2 com duas casas decimais
 
+#formatando nome
+
+nome = 'Leandro Paiva'
+nome_formatado = '{n:0<20}'.format(n=nome)
+nome_formatado = '{n:0<20}'.format(n=nome)
+print(nome_formatado)
 
 

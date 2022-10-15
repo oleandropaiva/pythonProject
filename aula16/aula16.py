@@ -13,4 +13,6 @@ https://docs.python.org/3/library/stdtypes.html (funções built-in)
 texto = 'Python s2'
 
 # negativos
-print(texto[-5])
+
+nova_string = texto[2:6]
+print(nova_string)

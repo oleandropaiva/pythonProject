@@ -11,4 +11,6 @@ https://docs.python.org/3/library/stdtypes.html (funções built-in)
 """
 # positivos
 texto = 'Python s2'
-print(texto[2])
+
+# negativos
+print(texto[-5])

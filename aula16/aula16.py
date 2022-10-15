@@ -14,5 +14,5 @@ texto = 'Python s2'
 
 # negativos
 
-nova_string = texto[2:6]
+nova_string = texto[:6]
 print(nova_string)

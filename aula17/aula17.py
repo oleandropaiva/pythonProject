@@ -5,9 +5,10 @@ uma condição for verdadeira.
 
 Requisitos: Entender condições e operadores
 """
-while True:
-    nome = input("Qual o seu nome? ")
-    print(f'Olá {nome}!')
 
-print("Não será executada")
+x = 0
+while x < 100:
+    print(x)
+    x = x + 1
+
 

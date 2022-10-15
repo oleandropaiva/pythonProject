@@ -15,4 +15,4 @@ texto = 'Python s2'
 # negativos
 
 nova_string = texto[:6]
-print(nova_string)
+print(len(texto))

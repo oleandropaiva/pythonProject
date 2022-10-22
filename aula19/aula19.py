@@ -5,6 +5,6 @@ frase = 'o rato roeu a roupa do rei de roma'
 tamanho_frase = len(frase)
 contador = 0
 
-while contador < 10:
-    print(contador)
+while contador < tamanho_frase:
+    print(frase[contador], contador)
     contador += 1

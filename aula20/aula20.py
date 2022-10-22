@@ -4,11 +4,11 @@ Iterando strings com for
 
 Função range(start=0, stop, step=1)range recebe 3 argumentos
 """
-texto = 'Python'
-nova_string = ''
 
 # continue - pula para o próximo laço
 # break  - termina o laço
+texto = 'Python'
+nova_string = ''
 
 for letra in texto:
     if letra == 't':

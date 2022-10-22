@@ -4,11 +4,15 @@ Iterando strings com for
 
 Função range(start=0, stop, step=1)range recebe 3 argumentos
 """
-for numero in range(20, 10, -1):
-    print(numero)
+texto = 'Python'
+nova_string = ''
 
-print('#################')
+for letra in texto:
+    if letra == 't':
+        nova_string = nova_string + letra.upper()
+    elif letra == 'h':
+        nova_string += letra.upper()
+    else:
+        nova_string += letra
 
-for numero in range(100):
-    if numero % 8 == 0:
-        print(numero)
+    print(nova_string)

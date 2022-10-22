@@ -11,3 +11,5 @@ while contador <= 10:
 
     acumulador = acumulador + contador
     contador += 1
+else:
+    print('Cheguei no else.')

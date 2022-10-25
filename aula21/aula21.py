@@ -13,4 +13,5 @@ string = 'ABCDE'
 
 print(string[1])
 print(lista[1])
+print(lista[-1])
 

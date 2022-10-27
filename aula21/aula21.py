@@ -8,7 +8,7 @@ range
 l1 = [1, 2, 3]
 l2 = [4, 5, 6]
 
-l2.append('b')
+l2.insert(0, 'banana')
 
 print(l1)
 print(l2)

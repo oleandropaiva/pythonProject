@@ -10,6 +10,10 @@ digitadas = []
 chances = 3
 
 while True:
+    if chances < 0:
+        print('Você perdeu!!!')
+        break
+
     letra = input('Digite uma letra: ')
 
     if len(letra) > 1:

@@ -5,7 +5,11 @@ append, insert, pop, clear, extend, +
 min, max
 range
 """
-l2 = ['String', True, 10, -20.5]
+secreto = 'perfume'
 
-for elem in l2:
-    print(f'O tipo do elem é {type(elem)} e seu valor é {elem}')
+while True:
+    letra = input('Digite uma letra: ')
+
+    if len(letra) > 1:
+        print('Ahhh isso não vale, digite apenas uma letra.')
+        continue

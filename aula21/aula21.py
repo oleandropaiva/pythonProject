@@ -10,7 +10,7 @@ digitadas = []
 chances = 3
 
 while True:
-    if chances < 0:
+    if chances <= 0:
         print('Você perdeu!!!')
         break
 
@@ -35,4 +35,14 @@ while True:
         else:
             secreto_temporario += '*'
 
-    print(secreto_temporario)
+    if secreto_temporario == secreto:
+        print(f'Você ganhou!!! A palavra era {secreto_temporario}.')
+        break
+    else:
+        print(f'A palavra secreta está assim: {secreto_temporario}')
+
+    if letra not in secreto:
+        chances -= 1
+
+    print(f'Você ainda tem {chances} chances.')
+    print()

@@ -7,6 +7,7 @@ range
 """
 secreto = 'perfume'
 digitadas = []
+chances = 3
 
 while True:
     letra = input('Digite uma letra: ')

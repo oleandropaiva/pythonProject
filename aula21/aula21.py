@@ -26,7 +26,7 @@ while True:
     secreto_temporario = ''
     for letra_secreta in secreto:
         if letra_secreta in digitadas:
-            secreto_temporario += letra
+            secreto_temporario += letra_secreta
         else:
             secreto_temporario += '*'
 

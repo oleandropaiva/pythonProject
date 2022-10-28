@@ -5,9 +5,7 @@ append, insert, pop, clear, extend, +
 min, max
 range
 """
-l2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-soma = 0
-for valor in l2:
-    soma = soma + valor
+l2 = ['String', True, 10, -20.5]
 
-print(soma)
+for elem in l2:
+    print(f'O tipo do elem é {type(elem)} e seu valor é {elem}')

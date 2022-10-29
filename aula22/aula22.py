@@ -3,12 +3,8 @@ For / Else em Python
 """
 variavel = ['Luiz Otávio', 'João', 'Maria']
 
-comeca_com_j = False
 for valor in variavel:
-    if valor.lower().startswith('j'):
-        comeca_com_j = True
-
-    if comeca_com_j:
-        print('Exite uma palavra que começa com J')
+    if valor.lower().startswith('J'):
+        break
     else:
         print('Não existe uma palavra que começa com J.')

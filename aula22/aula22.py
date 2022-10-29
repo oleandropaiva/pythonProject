@@ -5,7 +5,7 @@ variavel = ['Luiz Otávio', 'João', 'Maria']
 
 comeca_com_j = False
 for valor in variavel:
-    if valor.startswith('J'):
+    if valor.lower().startswith('j'):
         comeca_com_j = True
 
     if comeca_com_j:

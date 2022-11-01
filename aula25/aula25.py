@@ -1,5 +1,6 @@
 x = 10
 y = "Luiz"
-x, y = y, x
+z = 'Otávio'
+x, y, z = z, x, y
 
-print(f'x = {x} e y = {y}')
+print(f'x = {x} e y = {y} e z = {z}')

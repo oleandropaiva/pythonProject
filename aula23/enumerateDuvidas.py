@@ -6,5 +6,5 @@ lista =[
     ['Maria', 'Aline', 'Joana'],
     ['Helena', 'João', 'Carlo'],
 ]
-
-print(lista[1][2])
+enumerada = enumerate(lista)
+print(enumerada)

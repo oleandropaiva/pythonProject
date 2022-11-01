@@ -5,10 +5,14 @@ Split, Join, Enumerate em Python
 * Enumerate - Enumerar elementos da lista # list / iteráveis
 """
 lista = [
-    [1, 2],
-    [3, 4],
-    [5, 6],
+    [0, 'Leandro'],
+    [1, 'Theo'],
+    [2, 'Felipe'],
 ]
 
-for v in lista:
-    print(v[0], v[1])
+for indice, nome in lista:
+    print(indice, nome)
+
+
+
+

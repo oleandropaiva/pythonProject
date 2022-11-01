@@ -1,8 +1,5 @@
 x = 10
 y = "Luiz"
-
-z = x
-x = y
-y = z
+x, y = y, x
 
 print(f'x = {x} e y = {y}')

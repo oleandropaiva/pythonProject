@@ -6,5 +6,5 @@ lista = [
     ['Maria', 'Aline', 'Joana'],
     ['Helena', 'João', 'Carlo'],
 ]
-enumerada = enumerate(lista)
-print(list(enumerada))
+for v1, v2 in enumerate(lista, 53):
+    print(v1, v2)

@@ -4,10 +4,8 @@ Split, Join, Enumerate em Python
 * Join - Juntar uma lista # str
 * Enumerate - Enumerar elementos da lista # list / iteráveis
 """
-string = "O Brasil é o país país país do futebol, o Brasil é penta."
-lista_1 = string.split(' ')
-lista_2 = string.split(',')
+string = 'O Brasil é penta.'
+lista = string.split(' ')
 
-for valor in lista_2:
-    print(valor.strip().capitalize())
+print(lista)
 

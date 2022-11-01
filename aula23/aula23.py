@@ -10,7 +10,7 @@ lista_2 = string.split(',')
 
 palavra = ''
 contagem = 0
-for valor in lista_1:
+for valor in lista_2:
     qtd_vezes = lista_1.count(valor)
 
     if qtd_vezes > contagem:

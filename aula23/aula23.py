@@ -6,9 +6,6 @@ Split, Join, Enumerate em Python
 """
 string = 'O Brasil é penta.'
 lista = string.split(' ')
-string2 = ','.join(lista)
 
-print(string2)
-print(lista)
-print(string2)
-
+for indice, valor, in enumerate(lista):
+    print(indice, valor)

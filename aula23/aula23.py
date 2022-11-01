@@ -4,13 +4,9 @@ Split, Join, Enumerate em Python
 * Join - Juntar uma lista # str
 * Enumerate - Enumerar elementos da lista # list / iteráveis
 """
-lista = [
-    [0, 'Leandro'],
-    [1, 'Theo'],
-    [2, 'Felipe'],
-]
+lista = ['Leandro', 'Theo', 'Felipe']
 
-for indice, nome in lista:
+for indice, nome in enumerate(lista):
     print(indice, nome)
 
 

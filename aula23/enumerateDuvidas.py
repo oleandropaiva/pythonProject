@@ -7,4 +7,4 @@ lista =[
     ['Helena', 'João', 'Carlo'],
 ]
 
-print(lista[2])
+print(lista[1][2])

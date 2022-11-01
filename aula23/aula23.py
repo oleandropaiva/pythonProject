@@ -9,5 +9,5 @@ lista_1 = string.split(' ')
 lista_2 = string.split(',')
 
 for valor in lista_2:
-    print(valor.strip())
+    print(valor.strip().capitalize())
 

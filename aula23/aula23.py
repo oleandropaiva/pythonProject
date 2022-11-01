@@ -11,4 +11,4 @@ lista = [
 ]
 
 for v in lista:
-    print(v)
+    print(v[0])

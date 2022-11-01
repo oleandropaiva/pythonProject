@@ -4,8 +4,11 @@ Split, Join, Enumerate em Python
 * Join - Juntar uma lista # str
 * Enumerate - Enumerar elementos da lista # list / iteráveis
 """
-string = 'O Brasil é penta.'
-lista = string.split(' ')
+lista = [
+    [1, 2],
+    [3, 4],
+    [5, 6],
+]
 
-for indice, valor, in enumerate(lista):
-    print(indice, valor, lista[indice])
+for v in lista:
+    print(v)

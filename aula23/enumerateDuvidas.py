@@ -6,3 +6,5 @@ lista =[
     ['Maria', 'Aline', 'Joana'],
     ['Helena', 'João', 'Carlo'],
 ]
+
+print(lista[2])

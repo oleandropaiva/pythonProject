@@ -2,8 +2,7 @@
 Operador ternário em Python
 """
 idade = 18
+e_maior = (idade >=18)
+msg = 'Pode acessar' if e_maior else 'Não pode acessar'
 
-if idade >= 18:
-    print('Pode acessar.')
-else:
-    print('Não pode acessar.')
+print(msg)

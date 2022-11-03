@@ -1,7 +1,9 @@
 """
 Operador ternário em Python
 """
-logged_user = True
-msg = 'Usuário logado.' if logged_user else 'Usuário precisa logar.'
+idade = 18
 
-print(msg)
+if idade >= 18:
+    print('Pode acessar.')
+else:
+    print('Não pode acessar.')

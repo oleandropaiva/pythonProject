@@ -9,3 +9,5 @@ for / while
 7 3
 8 2
 """
+for regressivo in range(10, 1, -1):
+    print(regressivo)

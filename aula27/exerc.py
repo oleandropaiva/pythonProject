@@ -11,3 +11,6 @@ for / while
 """
 for regressivo in range(10, 1, -1):
     print(regressivo)
+
+for progressivo, regressivo in enumerate(range(10, 1, -1)):
+    print(progressivo, regressivo)

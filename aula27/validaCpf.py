@@ -16,3 +16,12 @@ CPF = 168.995.350-09
 11 > 9 = 0            #
 Digito 1 = 0          #   Digito 2 = 9
 """
+
+# Loop infinito
+while True:
+    # cpf = '16899535009'
+    cpf = input('Digite um CPF: ')
+    novo_cpf = cpf[:-2]                 # Elimina os dois últimos digitos do CPF
+    reverso = 10                        # Contador reverso
+    total = 0
+

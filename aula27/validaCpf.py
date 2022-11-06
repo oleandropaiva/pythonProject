@@ -42,3 +42,5 @@ while True:
             total = 0  # Zera o total
             novo_cpf += str(d)  # Concatena o digito gerado no novo cpf
 
+            # Evita sequencias. Ex.: 11111111111, 00000000000...
+            sequencia = novo_cpf == str(novo_cpf[0]) * len(cpf)
